@@ -1,0 +1,10 @@
+{"id":"intro","kind":"line","speaker":"旁白","display_text":"这是一个虚构游戏的配音流程示例。","reading_text":"这是一个虚构游戏的配音流程示例。","voice":"narrator","path_id":"","next_id":"guard","source_ref":"original-example/intro","reading_change_reason":"无"}
+{"id":"guard","kind":"line","speaker":"守卫","display_text":"请在三号门等我，不要离开。","reading_text":"请在三号门等我，不要离开。","voice":"character","path_id":"","next_id":"choose","source_ref":"original-example/guard","reading_change_reason":"无"}
+{"id":"choose","kind":"choice","speaker":"","display_text":"你准备怎么做？","path_id":"","options":[{"id":"east","label":"检查东侧通道","target_id":"east_1","path_id":"east_path","merge_id":"join","verified":true},{"id":"stay","label":"留在原地观察","target_id":"stay_1","path_id":"stay_path","merge_id":"join","verified":true}]}
+{"id":"east_1","kind":"line","speaker":"旅行者","display_text":"我先检查东侧通道。","reading_text":"我先检查东侧通道。","voice":"character","path_id":"east_path","next_id":"east_2","source_ref":"original-example/east-1","reading_change_reason":"无"}
+{"id":"east_2","kind":"line","speaker":"旅行者","display_text":"好，我会等你。","reading_text":"好，我会等你。","voice":"character","path_id":"east_path","next_id":"join","source_ref":"original-example/east-2","reading_change_reason":"无"}
+{"id":"stay_1","kind":"line","speaker":"旅行者","display_text":"不要触碰标记为007的开关。","reading_text":"不要触碰标记为零零七的开关。","voice":"character","path_id":"stay_path","next_id":"stay_2","source_ref":"original-example/stay-1","reading_change_reason":"编号逐位朗读，保留前导零；显示原文不改"}
+{"id":"stay_2","kind":"line","speaker":"旅行者","display_text":"好，我会等你。","reading_text":"好，我会等你。","voice":"character","path_id":"stay_path","next_id":"join","source_ref":"original-example/stay-2","reading_change_reason":"无"}
+{"id":"join","kind":"merge","speaker":"","display_text":"两条路线汇合","path_id":"","next_id":"outro"}
+{"id":"outro","kind":"line","speaker":"旁白","display_text":"两条路线在这里汇合。","reading_text":"两条路线在这里汇合。","voice":"narrator","path_id":"","next_id":"end","source_ref":"original-example/outro","reading_change_reason":"无"}
+{"id":"end","kind":"end","speaker":"","display_text":"示例结束","path_id":""}

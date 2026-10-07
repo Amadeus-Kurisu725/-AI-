@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+config.local.json
+work_*/
+output_*/
+models/*
+!models/README.md
+references/*
+!references/README.md
+*.wav
+*.mp3
+*.pth
+*.pt
+*.ckpt
+*.onnx
+.pytest_cache/

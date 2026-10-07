@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "fictional-demo",
+  "title": "虚构剧情示例（提示音演示）",
+  "source": "examples/story.jsonl",
+  "work_dir": "work_demo",
+  "output_dir": "output_demo",
+  "entry_id": "intro",
+  "routes_confirmed": true,
+  "voices": {
+    "narrator": {"label": "示例旁白，不含真实参考声音"},
+    "character": {"label": "示例角色，不含真实参考声音"}
+  },
+  "tts": {"backend": "demo", "engine_id": "demo-tone-v1"},
+  "asr": {}
+}

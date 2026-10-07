@@ -1,0 +1,19 @@
+# Python 运行产物
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 演示与真实生产的输出目录（每次运行都会重建，不入库）
+制作工具包/output_demo/
+制作工具包/work_demo/
+制作工具包/output/
+制作工具包/工作/
+
+# 本地配置（只提交 *.example.json）
+制作工具包/config.json
+
+# 模型权重与参考音频（体积大且涉及权利）
+制作工具包/models/*
+!制作工具包/models/README.md
+制作工具包/references/*
+!制作工具包/references/README.md

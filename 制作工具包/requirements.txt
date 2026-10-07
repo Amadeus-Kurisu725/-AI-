@@ -1,0 +1,2 @@
+# 基础命令、离线demo、测试：仅Python 3.11+标准库，无第三方依赖。
+# 真实ASR的可选环境见README；GPT-SoVITS作为独立本地API服务运行。

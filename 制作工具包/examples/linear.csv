@@ -1,0 +1,4 @@
+id,speaker,text,voice,reading_text,source_ref,reading_change_reason
+beacon_arrival,旁白,晨雾散开时，地图员来到旧灯塔。,narrator,,original-linear/beacon_arrival,
+beacon_note,地图员,值班簿上写着：灯号042已经修复。,character,值班簿上写着：灯号零四二已经修复。,original-linear/beacon_note,编号逐位读出，保留原始显示文本
+beacon_departure,旁白,她合上本子，沿着石阶走向海边。,narrator,,original-linear/beacon_departure,
